@@ -1,7 +1,7 @@
 #include <Arduino.h>
 //Include debugger libraries
 #include "avr8-stub.h"
-#include "app_api.h" //use flash breakpoints
+#include "app_api.h" //for use with flash breakpoints AVR8_BREAKPOINT_MODE=0
 
 
 void setup() {
