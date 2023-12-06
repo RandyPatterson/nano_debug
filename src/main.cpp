@@ -5,9 +5,11 @@
 
 
 void setup() {
-  debug_init();
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
+
+  // initialize the avr-debugger
+  debug_init();
 }
 
 // the loop function runs over and over again forever
